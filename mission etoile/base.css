@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Depixel';
+    src: url('src/typo/depixel/DePixelBreit.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Exima';
+    src: url('src/typo/exima_geometric/EximaGeometric.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@theme {
+    --font-depixel: Depixel, sans-serif;
+    --font-exima: Exima, sans-serif;
+    --color-customViolet: #282037;
+    --color-customBlue: #2b4c61;
+    --color-customBlack: #0c0c1c;
+    --color-customPurple: #603F9D;
+}
